@@ -439,7 +439,7 @@ h1 {
 
 ### Line height
 
-The {{cssxref("line-height")}} property sets the height of each line of text. This property can not only take most [length and size units](/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units#lengths), but can also take a unitless value, which acts as a multiplier and is generally considered the best option. With a unitless value, the {{cssxref("font-size")}} gets multiplied and results in the `line-height`. Body text generally looks nicer and is easier to read when the lines are spaced apart. The recommended line height is around 1.5 – 2 (double spaced). To set our lines of text to 1.6 times the height of the font, we'd use:
+The {{cssxref("line-height")}} property sets the height of each line of text. Not only can this property take most [length and size units](/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units#lengths), but it can also take a unitless value, which acts as a multiplier and is generally considered the best option. With a unitless value, the {{cssxref("font-size")}} gets multiplied and results in the `line-height`. Body text generally looks nicer and is easier to read when the lines are spaced apart. The recommended line height is around 1.5 – 2 (double spaced). To set our lines of text to 1.6 times the height of the font, we'd use:
 
 ```css live-sample___6line-height live-sample___7letter-word-spacing
 p {
